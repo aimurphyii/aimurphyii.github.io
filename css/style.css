@@ -1,0 +1,38 @@
+
+body {
+  background: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin-left: 15%;
+  }
+
+h1 {
+    color: cornflowerblue;
+  }
+  #ai {
+    color: coral;
+    text-decoration: dotted;
+  }
+
+  h3{
+    color: cadetblue;
+  }
+
+  ol {
+    width: 50%;
+    border: green;
+    align-self: center;
+    padding: 20px;
+  }
+
+  li {
+    color: lightskyblue;
+  }
+  .yes {
+    color: lightgreen;
+  }
+
+  .no {
+    color: indianred;
+    text-decoration: line-through;
+  }

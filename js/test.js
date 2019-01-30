@@ -26,9 +26,7 @@ console.log(age);
 var lilage = age.toLowerCase();
 
 //run that logic
-if (lilage === 'yes'){
-  alert('No, silly, I have 2 kids! I gotta live my life first!')
-}else if (lilage === 'y'){
+if (lilage === 'yes' || 'y'){
   alert('No, silly, I have 2 kids! I gotta live my life first!')
 }else{
   alert('Harsh, man.')
@@ -42,9 +40,7 @@ console.log(veggies);
 // change to lower case
 var lilveggies = veggies.toLowerCase();
 // BOOM! Logics~
-if (lilveggies === 'yes'){
-  alert('No ways. Meat is delicious murder. Forgive me~')
-}else if (lilveggies === 'y'){
+if (lilveggies === 'yes' || 'y'){
   alert('No ways. Meat is delicious murder. Forgive me~')
 }else{
   alert('You\'re damn right I\'m not!')
@@ -59,9 +55,7 @@ console.log(seahawks);
 var lilseahawks = seahawks.toLowerCase();
 
 //lolologic
-if (lilseahawks === 'yes'){
-  alert('Technically, yeeeeeeess...')
-} else if (lilseahawks === 'y'){
+if (lilseahawks === 'yes' || 'y'){
   alert('Technically, yeeeeeeess...')
 }else{
   alert('Not a Seahawks fan, necessarily, I\'m a Seattle fan. This is my hometown so I always root for the home team.')
@@ -76,9 +70,7 @@ console.log(korean);
 var lilkorean = korean.toLowerCase();
 
 //mylogica
-if(lilkorean === 'yes'){
-  alert('Mostly~')
-}else if(lilkorean === 'y'){
+if(lilkorean === 'yes' || 'y'){
   alert('Mostly~')
 }else{
   alert('You\'re wrong...ish.')
