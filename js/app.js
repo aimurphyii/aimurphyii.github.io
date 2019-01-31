@@ -27,7 +27,7 @@ var lilage = age.toLowerCase();
 if (lilage === 'yes' || lilage === 'y'){
   alert('God bless the 80s!');
 }else{
-  alert('Wrong, chile of the 80s, here. RIP Challenger.');
+  alert('Wrong, child of the 80s, right here. RIP Challenger.');
 }
 
 // ***Q3***
@@ -55,7 +55,7 @@ var lilseahawks = seahawks.toLowerCase();
 if(lilseahawks === 'yes' || lilseahawks === 'y'){
   alert('MMmmm... well, not exactly.');
 }else{
-  alert('Not a true Seahawks fan, but by default. I\'m a Seattle fan. This is my hometown so I always root for the hometeam.');
+  alert('Not a true Seahawks fan, but I\'m a fan by default. I\'m a Seattle fan. This is my hometown so I always root for the hometeam.');
 }
 
 //  ***Q5***
