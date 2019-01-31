@@ -1,85 +1,74 @@
 'use strict';
 
-// Question 1
+// ***Q1***
 
 var starwars = prompt('Does Aileen like Star Wars more than Star Trek?');
 console.log(starwars);
 
-// change to lower case
+// change to lowercase
 var lilstarwars = starwars.toLowerCase();
 
-//logic mclogicpants
-if (lilstarwars === 'yes'){
-  alert('Yes! But only the first three.')
-} else if (lilstarwars === 'y'){
-    alert('Yes! But only the first three.')
-  }else {
-  alert('No, I\'m not a trekkie.')
+// make that logic
+if (lilstarwars === 'yes' || lilstarwars === 'y'){
+  alert('May the force be with you!');
+}else{
+  alert('Wrong. You don\'t know me, boo.');
 }
 
-// Question 2
+// ***Q2***
 
-var age = prompt('Aileen is closer to 20 than 40?');
+var age = prompt('Was Aileen born in the 80s?');
 console.log(age);
 
-//change to lower case
+// ch-ch-ch-changes... to lowercase
 var lilage = age.toLowerCase();
 
-//run that logic
-if (lilage === 'yes'){
-  alert('No, silly, I have 2 kids! I gotta live my life first!')
-}else if (lilage === 'y'){
-  alert('No, silly, I have 2 kids! I gotta live my life first!')
+// if~then
+if (lilage === 'yes' || lilage === 'y'){
+  alert('God bless the 80s!');
 }else{
-  alert('Harsh, man.')
-  }
+  alert('Wrong, chile of the 80s, here. RIP Challenger.');
+}
 
-// Quesiton 3
-
+// ***Q3***
 var veggies = prompt('Is Aileen a vegetarian?');
 console.log(veggies);
 
-// change to lower case
+// taking it down a case
 var lilveggies = veggies.toLowerCase();
-// BOOM! Logics~
-if (lilveggies === 'yes'){
-  alert('No ways. Meat is delicious murder. Forgive me~')
-}else if (lilveggies === 'y'){
-  alert('No ways. Meat is delicious murder. Forgive me~')
+
+// and the survey says?
+if (lilveggies === 'yes' || lilveggies === 'y'){
+  alert('This one time, in college... I tried. I really tried.');
 }else{
-  alert('You\'re damn right I\'m not!')
+  alert('Tried it twice, and I\'ll only go back kicking and screaming.');
 }
 
-// Question 4
-
+// ***Q4***
 var seahawks = prompt('Is Aileen a Seahawks fan?');
 console.log(seahawks);
 
-// change to lowercase, it's one word.
+// let's be consistent. lowercases y'all
 var lilseahawks = seahawks.toLowerCase();
 
-//lolologic
-if (lilseahawks === 'yes'){
-  alert('Technically, yeeeeeeess...')
-} else if (lilseahawks === 'y'){
-  alert('Technically, yeeeeeeess...')
+// yes, or else!
+if(lilseahawks === 'yes' || lilseahawks === 'y'){
+  alert('MMmmm... well, not exactly.');
 }else{
-  alert('Not a Seahawks fan, necessarily, I\'m a Seattle fan. This is my hometown so I always root for the home team.')
+  alert('Not a true Seahawks fan, but by default. I\'m a Seattle fan. This is my hometown so I always root for the hometeam.');
 }
 
-// Question 5
+//  ***Q5***
 
-var korean = prompt('Is Aileen Korean?');
+var korean = prompt('Aileen seems Asian. Is she... Korean?');
 console.log(korean);
 
-//take it down a case
+// get low...ercased.
 var lilkorean = korean.toLowerCase();
 
-//mylogica
-if(lilkorean === 'yes'){
-  alert('Mostly~')
-}else if(lilkorean === 'y'){
-  alert('Mostly~')
+// so, what is she?
+if (lilkorean === 'yes' || lilkorean === 'y'){
+  alert('Mostly~ but, wait! There\'s more...');
 }else{
-  alert('You\'re wrong...ish.')
+  alert('You\'re not entirely wrong.')
 }
