@@ -1,5 +1,15 @@
 'use strict';
 
+// Intro Loop
+var myName = prompt('What\'s my name?');
+
+while (myName.toLowerCase() !== 'aileen'){
+  var myName = prompt('WRONG! Hint, it\'s like a girl with only 1 leg...');
+}
+if (myName.toLowerCase() === 'aileen'){
+  alert('Heyo~ friend!');
+}
+
 // ***Q1***
 
 var starwars = prompt('Does Aileen like Star Wars more than Star Trek?');
