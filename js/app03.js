@@ -98,30 +98,26 @@ tries--;
 
 // ***Q7***
 
+var studied = [
+  'korean',
+  'japanese',
+  'french',
+  'spanish'
+  ];
 
-// var tries = 6
-// while (tries < 6){}
-
-// var studied = [
-//     'korean',
-//     'japanese',
-//     'french',
-//     'spanish'
-//     ];
-// for (i=6; i>0; i--){
-//     var lang = prompt('What languages has Aileen studied?');
-//     console.log(lang);
-//     if (lang === studied[i]){
-//       var lang = prompt('Yes! And...');
-//     }else{
-//       var lang = prompt('not yet, try another')
-//     }
-// }
-
+var lang = prompt("What foreign language has Aileen studied?");
+for (var attempt = 6;attempt > 0 ;attempt--) {
+  if (studied.indexOf(lang) >= 0) {
+    var lang = prompt("Yes and what else?");
+  } else {
+    var lang = prompt("Nope try again");
+  }
+}
 
 
 // outro
 // What's my name!?
+
 var myName = prompt('What\'s my name?');
 
 while (myName.toLowerCase() !== 'aileen'){
