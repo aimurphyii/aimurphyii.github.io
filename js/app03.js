@@ -90,8 +90,10 @@ if (married > 7){
   var married = prompt ('Not quite that long, try lower...');
 }else if (married < 7){
   var married = prompt ('We beat those odds, try higher...');
-}else{
-  alert('Bingo!');{break;}
+}else if (married == 7){
+  alert('Bingo!');{break};
+}else {
+  var married = prompt("use a number jerk");
 }
 tries--;
 }
