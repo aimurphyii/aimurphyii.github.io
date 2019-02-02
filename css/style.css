@@ -1,11 +1,66 @@
 
-body {
-  background: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 80%;
-    margin-left: 15%;
-  }
+body{
+  color: darkslategrey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  width: 100%;
+}
 
+#home nav{
+  background: antiquewhite;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  width: 80%;
+  float: center;
+  margin-left: 10%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover{
+  color: green;
+  text-decoration: underline overline;
+  text-transform: uppercase;
+}
+#quizzlet {
+  background: pink;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 35%;
+  box-align: center;
+  float: right;
+  margin-right: 10%;
+  padding: 8px;
+}
+#bio {
+  background: purple;
+  color: azure;
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  padding: 8px;
+}
+#bio img{
+  width: 70%;
+  clip-path: ellipse(50% 45% at 50% 50%);
+}
+#edu {
+  background: darkcyan;
+  color: azure;
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  padding: 8px;
+}
+#work {
+  background: lightseagreen;
+  width: 35%;
+  box-align: center;
+  float: right;
+  margin-right: 10%;
+  padding: 8px;
+}
 h1 {
     color: cornflowerblue;
   }
