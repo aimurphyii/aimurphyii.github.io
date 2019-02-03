@@ -7,7 +7,7 @@ console.log(hiFriend);
 alert('Welcome, ' + hiFriend + '! Let\'s see where you line up on the stalker/friendship scale...')
 
 // ***Q1***
-
+function question1(){
 var starwars = prompt('Does Aileen like Star Wars more than Star Trek?');
 console.log(starwars);
 
@@ -20,9 +20,9 @@ if (lilstarwars === 'yes' || lilstarwars === 'y'){
 }else{
   alert('Wrong. You don\'t know me, boo.');
 }
-
+}
 // ***Q2***
-
+function question2() {
 var age = prompt('Was Aileen born in the 80s?');
 console.log(age);
 
@@ -35,8 +35,11 @@ if (lilage === 'yes' || lilage === 'y'){
 }else{
   alert('Wrong, child of the 80s, right here. RIP Challenger.');
 }
+}
+
 
 // ***Q3***
+function question3() {
 var veggies = prompt('Is Aileen a vegetarian?');
 console.log(veggies);
 
@@ -49,8 +52,10 @@ if (lilveggies === 'yes' || lilveggies === 'y'){
 }else{
   alert('Tried it twice, and I\'ll only go back kicking and screaming.');
 }
+}
 
 // ***Q4***
+function question4(){
 var seahawks = prompt('Is Aileen a Seahawks fan?');
 console.log(seahawks);
 
@@ -63,9 +68,10 @@ if(lilseahawks === 'yes' || lilseahawks === 'y'){
 }else{
   alert('Not a true Seahawks fan, but I\'m a fan by default. I\'m a Seattle fan. This is my hometown so I always root for the hometeam.');
 }
+}
 
 //  ***Q5***
-
+function question5() {
 var korean = prompt('Aileen seems Asian. Is she... Korean?');
 console.log(korean);
 
@@ -78,9 +84,10 @@ if (lilkorean === 'yes' || lilkorean === 'y'){
 }else{
   alert('You\'re not entirely wrong.')
 }
+}
 
 //  ***Q6***
-
+function question6(){
 var married = prompt('How many years have I been married?');
 
 // you get 4 guesses
@@ -97,9 +104,10 @@ if (married > 7){
 }
 tries--;
 }
+}
 
 // ***Q7***
-
+function question7() {
 var studied = [
   'korean',
   'japanese',
@@ -115,11 +123,11 @@ for (var attempt = 6;attempt > 0 ;attempt--) {
     var lang = prompt("Nope try again");
   }
 }
-
+}
 
 // outro
 // What's my name!?
-
+function question8(){
 var myName = prompt('What\'s my name?');
 
 while (myName.toLowerCase() !== 'aileen'){
@@ -128,3 +136,12 @@ while (myName.toLowerCase() !== 'aileen'){
 if (myName.toLowerCase() === 'aileen'){
   alert('Yes! Best friends, forever!');
 }
+}
+question1()
+question2()
+question3()
+question4()
+question5()
+question6()
+question7()
+question8()
