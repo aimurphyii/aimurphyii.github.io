@@ -1,68 +1,82 @@
 
 body{
-  color: darkslategrey;
+  background: black;
+  color: cadetblue;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
 }
 
-#home nav{
-  background: antiquewhite;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: medium;
-  width: 80%;
-  float: center;
+header img{
+  width: 81%;
   margin-left: 10%;
 }
 
+#home nav{
+  background: mediumaquamarine;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  padding: 8px;
+}
+
 a {
-  color: blue;
+  color: whitesmoke;
   text-decoration: none;
 }
 a:hover{
-  color: green;
+  color: darkorange;
   text-decoration: underline overline;
-  text-transform: uppercase;
 }
 #quizzlet {
-  background: pink;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  width: 35%;
-  box-align: center;
-  float: right;
-  margin-right: 10%;
+  background:rgb(6, 102, 102);
+  width: 80%;
+  margin-left: 10%;
   padding: 8px;
 }
 #bio {
-  background: purple;
+  background: lightseagreen;
   color: azure;
-  width: 35%;
-  float: left;
+  width: 80%;
   margin-left: 10%;
   padding: 8px;
 }
 #bio img{
-  width: 70%;
+  width: 20%;
   clip-path: ellipse(50% 45% at 50% 50%);
 }
 #edu {
   background: darkcyan;
   color: azure;
-  width: 35%;
-  float: left;
+  width: 80%;
   margin-left: 10%;
   padding: 8px;
+  text-align: left;
 }
+
 #work {
-  background: lightseagreen;
-  width: 35%;
-  box-align: center;
-  float: right;
-  margin-right: 10%;
+  background: rgba(32, 178, 171, 0.822);
+  color: aliceblue;
+  width: 80%;
+  margin-left: 10%;
   padding: 8px;
+  text-align: left;
 }
+
+#top10 {
+  background: rgba(0, 139, 139, 0.541);
+  color: azure;
+  width: 80%;
+  margin-left: 10%;
+  padding: 8px;
+  text-align: left;
+}
+
 h1 {
-    color: cornflowerblue;
+    color: rgb(138, 179, 180);
+    text-shadow: 2px 2px 2px darkslategray;
   }
   #ai {
     color: coral;
@@ -89,5 +103,4 @@ h1 {
 
   .no {
     color: indianred;
-    text-decoration: line-through;
   }

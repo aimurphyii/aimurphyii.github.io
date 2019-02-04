@@ -147,7 +147,7 @@ if (myName.toLowerCase() === 'aileen'){
 if (answers.length > 10){
   alert(hiFriend + ', if we aren\'t besties, we need to have a chat. ' + answers.length + ' out of 12 points is stalker-country.');
 }else if (answers.length < 6){
-  alert('I hope you learned something today, ' + hiFriend + '. ' + answers.length + 'out of 12 points is only the beginning of our friendship. We need to hang out more.');
+  alert('I hope you learned something today, ' + hiFriend + '. ' + answers.length + ' out of 12 points is only the beginning of our friendship. We need to hang out more.');
 }else{
   alert('Well, '+ hiFriend + ', ' + answers.length + ' out of 12 points? Not too shabby, my friend!');
 }
