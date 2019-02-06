@@ -9,6 +9,7 @@ var answers = [];
 
 // ***Q1***
 
+function Q1 (){
 var starwars = prompt('Does Aileen like Star Wars more than Star Trek?');
 console.log(starwars);
 
@@ -22,10 +23,11 @@ if (lilstarwars === 'yes' || lilstarwars === 'y'){
 }else{
   alert('Wrong. You don\'t know me, boo.');
 }
+}
 
 
 // ***Q2***
-
+function Q2 (){
 var age = prompt('Was Aileen born in the 80s?');
 console.log(age);
 
@@ -39,8 +41,10 @@ if (lilage === 'yes' || lilage === 'y'){
 }else{
   alert('Wrong, child of the 80s, right here. RIP Challenger.');
 }
+}
 
 // ***Q3***
+function Q3 (){
 var veggies = prompt('Is Aileen a vegetarian?');
 console.log(veggies);
 
@@ -54,8 +58,10 @@ if (lilveggies === 'yes' || lilveggies === 'y'){
   alert('Tried it twice, and I\'ll only go back kicking and screaming.');
   answers.push('Q3');
 }
+}
 
 // ***Q4***
+function Q4(){
 var seahawks = prompt('Is Aileen a Seahawks fan?');
 console.log(seahawks);
 
@@ -70,9 +76,10 @@ if(lilseahawks === 'yes' || lilseahawks === 'y'){
   alert('Not a true Seahawks fan, but I\'m a fan by default. I\'m a Seattle fan. This is my hometown so I always root for the hometeam.');
   answers.push('Q4');
 }
+}
 
 //  ***Q5***
-
+function Q5(){
 var korean = prompt('Aileen seems Asian. Is she... Korean?');
 console.log(korean);
 
@@ -87,8 +94,9 @@ if (lilkorean === 'yes' || lilkorean === 'y'){
   alert('You\'re not entirely wrong.')
   answers.push('Q5');
 }
-
+}
 //  ***Q6***
+function Q6(){
 var married = prompt('How many years have I been married?');
 
 // you get 4 guesses
@@ -107,9 +115,10 @@ if (married > 7){
 }
 tries--;
 }
+}
 
 // ***Q7***
-
+function Q7(){
 // places i've lived
 var places = [
   'north carolina',
@@ -129,8 +138,16 @@ for (var tries = 6; tries > 1; tries--){
     var homes = prompt('Not yet, try another...')
   }
 }
-
+}
 // outro
+Q1();
+Q2();
+Q3();
+Q4();
+Q5();
+Q6();
+Q7();
+
 // What's my name!?
 var myName = prompt('What\'s my name?');
 
