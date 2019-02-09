@@ -101,7 +101,7 @@ var married = prompt('How many years have I been married?');
 
 // you get 4 guesses
 var tries = 4
-while (tries > 0){
+while (tries > 1){
 if (married > 7){
   var married = prompt ('Not quite that long, try lower...');
 }else if (married < 7){
@@ -115,6 +115,7 @@ if (married > 7){
 }
 tries--;
 }
+alert('Seven years strong... what doesn\'t kill you makes you stronger, right?');
 }
 
 // ***Q7***
@@ -135,11 +136,12 @@ for (var tries = 6; tries > 1; tries--){
     var homes = prompt('Yes! And...');
     answers.push('Q7');
   }else{
-    var homes = prompt('Not yet, try another...')
+    var homes = prompt('Not yet, try another...');
   }
 }
+alert('Of theses great States, I\'ve only called NC, WA, TX, CA, FL and MD home.');
 }
-alert('Of theses great States, I\'ve only called NC, WA, TX, CA, FL and MD home.')
+
 // outro
 Q1();
 Q2();
