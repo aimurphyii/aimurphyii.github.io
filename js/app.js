@@ -151,13 +151,22 @@ Q7();
 // What's my name!?
 var myName = prompt('What\'s my name?');
 
-while (myName.toLowerCase() !== 'aileen'){
-  var myName = prompt('WRONG! Hint, it\'s like a girl with only 1 leg and begins with an A...');
-}
 if (myName.toLowerCase() === 'aileen'){
   alert('Yes! Best friends, forever!');
   answers.push ('bonusQ');
+}else{
+  alert('It\'s Aileen!');
 }
+
+// var myName = prompt('What\'s my name?');
+
+// while (myName.toLowerCase() !== 'aileen'){
+//   var myName = prompt('WRONG! Hint, it\'s like a girl with only 1 leg and begins with an A...');
+// }
+// if (myName.toLowerCase() === 'aileen'){
+//   alert('Yes! Best friends, forever!');
+//   answers.push ('bonusQ');
+// }
 
 // keeping score
 
