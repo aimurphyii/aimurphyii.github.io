@@ -121,12 +121,12 @@ tries--;
 function Q7(){
 // places i've lived
 var places = [
-  'north carolina',
-  'maryland',
-  'florida',
-  'washington',
-  'california',
-  'texas',
+  'north carolina','nc',
+  'maryland','md',
+  'florida','fl',
+  'washington','wa',
+  'california','ca',
+  'texas','tx',
 ];
 var homes = prompt('I\'ve moved around in my life, can you guess some states I\'ve called home? (6 possible answers)');
 // you get 6 tries
@@ -139,6 +139,7 @@ for (var tries = 6; tries > 1; tries--){
   }
 }
 }
+alert('Of theses great States, I\'ve only called NC, WA, TX, CA, FL and MD home.')
 // outro
 Q1();
 Q2();
