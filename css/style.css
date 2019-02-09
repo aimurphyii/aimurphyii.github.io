@@ -63,7 +63,7 @@ nav{
 #work img{
   float: right;
   width:30%;
-  /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 
 #edu{
@@ -73,7 +73,7 @@ nav{
 #edu img{
   float: left;
   width:30%;
-  /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   margin-right: 25px;
 }
 
@@ -84,7 +84,7 @@ nav{
 #quizzlet img{
   width: 25%;
   float: right;
-  /* clip-path: polygon(50% 0, 90% 15%, 90% 100%, 10% 100%, 10% 15%); */
+  clip-path: polygon(50% 0, 90% 15%, 90% 100%, 10% 100%, 10% 15%);
 }
 
 #top10{
@@ -94,7 +94,7 @@ nav{
 #top10 img{
   width: 22%;
   float: right;
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
 /* smaller elements */
