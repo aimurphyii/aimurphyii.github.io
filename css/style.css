@@ -63,7 +63,7 @@ nav{
 #work img{
   float: right;
   width:30%;
-  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 
 #edu{
@@ -80,7 +80,6 @@ nav{
 #quizzlet {
   background: rgba(109, 160, 170, 0.7);
   padding: 15px;
-  clear: both;
 }
 #quizzlet img{
   width: 25%;
