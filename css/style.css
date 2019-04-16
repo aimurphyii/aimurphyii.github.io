@@ -42,10 +42,10 @@ nav{
   justify-content: space-evenly;
   overflow: hidden;
 }
-/* nav li{
+nav li{
   display:inline;
 }
- */
+
 /* block sections */
 
 #bio{
