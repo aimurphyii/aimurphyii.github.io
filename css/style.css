@@ -39,13 +39,13 @@ nav{
   text-align: center;
   list-style: none outside;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   overflow: hidden;
 }
 /* nav li{
   display:inline;
-} */
-
+}
+ */
 /* block sections */
 
 #bio{
