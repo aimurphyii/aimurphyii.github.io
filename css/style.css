@@ -2,7 +2,7 @@ body {
   background: #0F1111;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(209, 213, 222);
-  text-align: justify;
+  text-align: left;
   text-justify: inter-character;
   width: 80%;
   margin-left: 10%;
