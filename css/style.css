@@ -42,9 +42,9 @@ nav{
   justify-content: space-around;
   overflow: hidden;
 }
-nav li{
+/* nav li{
   display:inline;
-}
+} */
 
 /* block sections */
 
